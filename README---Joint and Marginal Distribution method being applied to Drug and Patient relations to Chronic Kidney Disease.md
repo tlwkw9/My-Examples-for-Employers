@@ -1,6 +1,5 @@
-# My-Examples-for-Employers
-Different Statistical and Homework Examples from school for employers and collaborators to see.
-
+Applying Joint and Marginal Distribution to Drug and Patient relationship to Chronic Kidney Disease Predictions, 
+I learned Joint and Marginal Distribution while taking Data Mining for my data science degree.
 
 import pandas as pd
 import kagglehub
@@ -12,12 +11,12 @@ import os
 path = kagglehub.dataset_download("ziya07/drugpatient-dataset-for-ckd-prediction")
 print("Path to dataset files:", path)
 
-# This dataset contains a CSV file. Let's load it.
-# (You may need to print os.listdir(path) to confirm the filename.)
+# This dataset Should contains a CSV file I f it doesnt my apologies; Here goes nothing..
+#P.S---- (You may need to print os.listdir(path) to confirm the filename.)
 file_list = os.listdir(path)
 print("Files in dataset:", file_list)
 
-#  You need to load the correct CSV file (assuming it's the second in the list or has a specific name)
+#  You need to load the correct CSV file (assuming THIS CODE WONT ALLOW YOU TO EXECUTE. I would shoot for Google Colab since I was able to run successfully but also i could link the path to the Kaggle Page where the Data Set was located, or has a specific name)
 # Make sure you check the file_list to ensure you're picking the right one.
 csv_path = os.path.join(path, 'CKD_NephrotoxicDrug_Dataset.csv') # Explicitly use the correct filename
 # Alternatively, if you're certain it's always file_list[1]:
